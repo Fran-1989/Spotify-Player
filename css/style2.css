@@ -1,0 +1,23 @@
+body {
+   	background-image: url(../img/spotify_background.jpg);
+	background-repeat: no-repeat;
+	background-attachment:fixed;
+}
+
+#search{
+	background-color: white;	
+}
+
+
+.material-icons{
+    position: absolute;
+}
+
+#listsongs {
+	text-align: center;
+}
+
+#buttonShowSongs {
+	background-image: url(../img/spotify-icon.png);
+	width: 50px;
+}

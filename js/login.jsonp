@@ -1,0 +1,17 @@
+getUsersAndPass({
+	"users": [
+	{
+		"user": "pepe",
+		"pass": "1234"
+	},
+	{
+		"user": "juandi",
+		"pass": "2222"
+	},
+	{
+		"user": "cristi",
+		"pass": "4321"
+	}
+
+	]
+});

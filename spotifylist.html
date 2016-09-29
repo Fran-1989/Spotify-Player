@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Spotify</title>
+
+	<link rel="stylesheet" type="text/css" href="css/style2.css">
+	<link rel="stylesheet" type="text/css" href="css/materialize.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+
+	<script src="js/jquery-2.1.4.js" type="text/javascript"></script>
+  <script src= "js/materialize.js" type="text/javascript"></script>
+</head>
+
+<body>
+
+<div class="container">
+   	<div class="row">
+   		<div class="col s4"> &nbsp;
+   			
+   		<ul class="side-nav fixed">
+   		   <img src="img/Spotify_logo.jpg" width="100">
+			   <li id="listsongs">LISTA DE CANCIONES</li>
+         <ul class="collection" id="listSpotify" >
+        
+         </ul>
+			</ul>
+
+
+   		</div>
+   		<div class="col s8">
+   			<div class="input-field">
+	            <input id="search" type="search" placeholder="Search artist" />
+	            <label for="search" id="search-icon"><i class="material-icons">search</i></label>
+        </div>
+        <div id="albumsSearch" class="collection"></div>
+  			<div id="modal1" class="modal">
+    		  <div id="modalArtist" class="modal-content"></div>
+    			<div class="modal-footer">
+      			<a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Agree</a>
+    		  </div>
+        </div>
+   	  </div>		
+    </div>
+</div>
+
+	
+	<script src="js/users.js" type="text/javascript"></script>
+	<script src="js/spotify.js" type="text/javascript"></script>
+</body>
+
+</html>

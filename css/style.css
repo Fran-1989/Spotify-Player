@@ -1,0 +1,18 @@
+body {
+   	background-image: url(../img/spot.jpg);
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
+
+
+.center-login {  
+	margin-top: 5%;
+    border-radius: 15px;
+    background-color: #fff;
+    border-color: rgb(169, 208, 63);
+    border-style: groove;
+}
+
